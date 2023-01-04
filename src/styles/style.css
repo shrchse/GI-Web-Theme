@@ -1,0 +1,40 @@
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    background-image: url(/src/asset/landing.jpg);
+    background-size: cover;
+    height: 48em;
+    margin-bottom: 5em;
+    position: relative;
+}
+
+#char.card-content{
+    background: rgb(204,255,254);
+    background: linear-gradient(58deg, rgba(204,255,254,1) 0%, rgba(120,170,247,1) 100%);
+}
+
+#search-character{
+    width: 80%;
+    margin-left: 5%;
+}
+#char-search{
+    border: 1px #93b8f8 solid;
+    border-radius: 18px;
+    padding-left: 10%;
+    border-radius: 11px;
+    background: #ffffff;
+    box-shadow:  6px 6px 3px #858585,
+                 -6px -6px 3px #ffffff;
+}
+#char-search::placeholder{
+    color: #808080;
+}
+#reg-card{
+    border: rgba(120,170,247,1) 1px solid;
+    border-radius: 11px;
+    background: #ffffff;
+    box-shadow:  24px 24px 6px #858585,
+                -24px -24px 6px #ffffff;
+}

@@ -1,0 +1,9 @@
+import 'materialize-css/dist/css/materialize.min.css';
+import 'materialize-css/dist/css/materialize.css';
+import './styles/style.css';
+import './component/role-section.js'
+import './script/image.js';
+import './component/nav-component.js'
+import './component/region-section.js';
+import './component/character-section.js';
+import './component/footer-component.js';
